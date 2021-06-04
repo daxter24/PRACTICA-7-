@@ -11,7 +11,7 @@ import java.time.LocalDate;
 /**
  * Description of CuentaBancaria.
  * 
- * @author Kevin
+ * @author BORBONIO
  */
 public class CuentaBancaria implements Comparable<CuentaBancaria> {
 	
@@ -37,7 +37,7 @@ public class CuentaBancaria implements Comparable<CuentaBancaria> {
 	public boolean Deposito(float Cantidad) {
 		boolean Deposito = false;
 		if(this.fechaApertura==null)
-			System.out.println("La cuenta no est· activa");
+			System.out.println("La cuenta no est√° activa");
 		else {
 			Deposito = true;
 			this.setSaldo(this.getSaldo()+Cantidad);
